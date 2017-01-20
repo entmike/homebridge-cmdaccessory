@@ -1,0 +1,31 @@
+{
+  "name": "homebridge-cmdaccessory",
+  "version": "1.0.2",
+  "description": "Command plugin for HomeBridge to appear as different accessories (Switch, Lock, Window Blinds, etc)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entmike/homebridge-cmdaccessory.git"
+  },
+  "keywords": [
+    "homebridge",
+    "command",
+    "line",
+    "accessories",
+    "homekit",
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "homebridge": ">=0.3.0",
+    "node": ">=0.12.0"
+  },
+  "author": "Mike Howles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entmike/homebridge-cmdaccessory/issues"
+  },
+  "homepage": "https://github.com/entmike/homebridge-cmdaccessory#readme"
+}
