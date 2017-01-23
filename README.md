@@ -36,7 +36,7 @@ This plugin can only run CLI commands the same as you typing them yourself. In o
 Edit your `config.json` accordingly. Configuration sample:
  ```
 "platforms": [{
-    "platform": "cmdSwitch2"
+    "platform": "cmdAccessory"
 }]
 ```
 
