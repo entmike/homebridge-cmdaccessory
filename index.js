@@ -138,6 +138,9 @@ cmdAccessoryPlatform.prototype.getStatePropertyName = function (type) {
 	case "WindowCovering":
 		prop = "CurrentPosition,TargetPosition";
 		break;
+	case "GarageDoorOpener":
+		prop = "CurrentDoorState,TargetDoorState";
+		break;
 	case "Switch":
 	case "Lightbulb":
 	case "Outlet":
@@ -155,7 +158,7 @@ cmdAccessoryPlatform.prototype.getValueForState = function (state, type) {
 	if (type == "WindowCovering") {
 		value = (state) ? 100 : 0;
 	}
-	if (type == "Door") {
+	if (type == "Door" || type == "GarageDoorOpener") {
 		value = (state) ? Characteristic.TargetDoorState.CLOSED : Characteristic.TargetDoorState.OPEN;
 	}
 	if (type == "Switch" || type == "Lightbulb")

@@ -1,3 +1,5 @@
+## NEW: Now supports GarageDoorOpener. Original author has gone dark and cannot approve pull request.
+
 # homebridge-cmdaccessory [![npm version](https://badge.fury.io/js/homebridge-cmdaccessory.svg)](https://badge.fury.io/js/homebridge-cmdaccessory)
 CMD Plugin for [HomeBridge](https://github.com/nfarina/homebridge) (API 2.0)
 
